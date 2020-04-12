@@ -1,0 +1,18 @@
+// General variables
+location     = "eastus"
+projidprefix = "lbwithnatgw"   # edit to match name of project
+
+// Networking variables 
+networkrgname = "network-rg"
+vnet1_name    = "vnet1"
+
+// VM variables
+computergname       = "compute-rg"
+linuxvm1_hostname   = "vm1"
+linuxvm2_hostname   = "vm2"
+vm_size             = "Standard_DS2_V2"
+vm_admin_user       = "vmadmin"
+vm_admin_pwd        = ""    // should be adequately complex - uncomment and enter password here for auto reading at runtime
+
+// management nsg related variable entries 
+nsg_rg_name       = "nsg-rg"
