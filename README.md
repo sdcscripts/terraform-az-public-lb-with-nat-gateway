@@ -1,13 +1,11 @@
-Azure Title here
-=============================================
+Public Load Balancer co-existing with NAT Gateway 
+=================================================
 
 This code will quickly (usually within 15 mins) build a simple deployment including a Public Load Balancer with two linux VMs in a backend configuration. The VMs are in a subnet which also has NAT Gateway configured.
 
 There is a simple web service on each Linux which outputs the hostname
 
 This lab demonstrates that public load balancer (inbound service) and NAT Gateway (outbound service) can co-exist. Note that for all outbound connectivity, NAT Gateway will take precedence. All inbound flows will use the Public load balance and flow symmetry will be maintained.
-
-###
 
 ## Requirements
 
